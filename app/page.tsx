@@ -9,13 +9,13 @@ export default async function Home() {
   console.log('users: ', users);
 console.log("hi");
       const A_list = [
-        "https://lawmatestorage.blob.core.windows.net/private-il/CaseAnalysis/shira6657@gmail.com/2025-04-08T14:02:01.190Z/A-1.txt"
+        "https://myblob.blob.core.windows.net/private-il/CaseAnalysis/2025-04-08T14:02:01.190Z/A-1.txt"
       ]
       const B_list = [
-        'https://lawmatestorage.blob.core.windows.net/private-il/CaseAnalysis/shira6657@gmail.com/2025-04-08T14:02:01.190Z/B-2.txt'
+        'https://myblob.blob.core.windows.net/private-il/CaseAnalysis/2025-04-08T14:02:01.190Z/B-2.txt'
       ]
       const newCaseSummary = new CaseSummary()
-      newCaseSummary.UserId = 'shira6657@gmail.com'
+      newCaseSummary.UserId = 'myname@gmail.com'
       newCaseSummary.Title = 'html.docx'
       newCaseSummary.Answer = "Answer test"
       newCaseSummary.IsDeleted = 0
